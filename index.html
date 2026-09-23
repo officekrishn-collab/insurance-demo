@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecureCover Insurance (Demo)</title>
+<meta name="description" content="Demo insurance lead-generation landing page for Google Ads testing purposes only.">
+<link rel="stylesheet" href="style.css">
+
+<!-- ============================================================
+     GOOGLE TAG MANAGER (HEAD SNIPPET) WILL GO HERE
+     Paste the GTM <script> snippet from tagmanager.google.com
+     right below this comment, before </head>.
+============================================================ -->
+<!-- GOOGLE ADS TAG WILL GO HERE -->
+
+</head>
+<body>
+
+<!-- ============================================================
+     GOOGLE TAG MANAGER (NOSCRIPT / BODY SNIPPET) WILL GO HERE
+     Paste the <noscript> GTM snippet immediately after <body>.
+============================================================ -->
+
+<div class="demo-banner">
+  ⚠️ DEMO WEBSITE — For Google Ads &amp; conversion-tracking practice only. Do not submit real personal information.
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">SecureCover <span>Insurance</span></div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="#coverage">Coverage</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>Find the Right Insurance Coverage for You</h1>
+    <p>Compare plans, get a personalized quote, and protect what matters most — in just a few minutes.</p>
+    <a href="#quote-form" class="btn btn-primary">Get a Free Quote</a>
+  </div>
+</section>
+
+<section id="coverage" class="benefits">
+  <div class="container">
+    <h2>Why Choose SecureCover</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="icon">📊</div>
+        <h3>Compare Coverage Options</h3>
+        <p>Explore multiple insurance plans side by side and choose the coverage that fits your needs and budget.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">⚡</div>
+        <h3>Simple Quote Process</h3>
+        <p>Answer a few quick questions and receive a no-obligation quote — no lengthy paperwork required.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">🔧</div>
+        <h3>Flexible Insurance Plans</h3>
+        <p>From health to auto to life insurance, tailor a plan that adapts as your life changes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About This Demo</h2>
+    <p>SecureCover Insurance is a fictional brand created solely to demonstrate a lead-generation landing page for Google Ads Search Campaigns and conversion tracking testing. No real insurance products are offered here.</p>
+  </div>
+</section>
+
+<section id="quote-form" class="quote-section">
+  <div class="container">
+    <h2>Get a Free Quote</h2>
+    <p class="form-demo-label">📝 This is a DEMO form for learning purposes. No data is sent, saved, or stored anywhere.</p>
+
+    <form id="leadForm" novalidate>
+      <div class="form-row">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" required>
+        <span class="error-message" id="err-fullName"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        <span class="error-message" id="err-email"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" placeholder="9999999999" required>
+        <span class="error-message" id="err-phone"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="insuranceType">Insurance Type *</label>
+        <select id="insuranceType" name="insuranceType" required>
+          <option value="">Select an option</option>
+          <option value="health">Health Insurance</option>
+          <option value="auto">Auto Insurance</option>
+          <option value="life">Life Insurance</option>
+          <option value="home">Home Insurance</option>
+          <option value="travel">Travel Insurance</option>
+        </select>
+        <span class="error-message" id="err-insuranceType"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message / Requirement</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about what you're looking for (optional)"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full">Get My Free Quote</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 SecureCover Insurance (Demo). This is not a real company.</p>
+    <p class="footer-note">Demo website for advertising and conversion-tracking practice.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
